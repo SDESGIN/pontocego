@@ -1,0 +1,43 @@
+PONTO CEGO — SITE DE ANÚNCIO DE LANÇAMENTO
+==========================================
+
+O QUE TEM NESTA PASTA
+- index.html   : página do site
+- styles.css   : visual, efeitos, responsividade
+- script.js    : contagem regressiva, galeria, visor e botões
+- assets/      : logo, imagens compactadas e ícone do site
+
+COMO TESTAR
+1. Abra index.html no navegador. Internet é opcional, mas necessária
+   para carregar as fontes hospedadas pelo Google; o visual tem fontes alternativas.
+
+COMO PUBLICAR GRATUITAMENTE NO NETLIFY
+1. Acesse https://app.netlify.com/drop
+2. Arraste a PASTA ponto_cego_site inteira (ou ZIP descompactado).
+3. O serviço publica um link. Todas as imagens usam caminhos relativos.
+
+PARA GITHUB PAGES
+Envie todos os arquivos de index.html, styles.css, script.js e a pasta assets/
+para a raiz do repositório. Ative GitHub Pages nas configurações.
+
+DATA
+A contagem usa 10/11/2026 à meia-noite, horário de São Paulo (UTC-03).
+O botão de calendário baixa um evento de dia inteiro, pois nenhum horário
+específico foi confirmado.
+
+IMPORTANTE
+As imagens são artes conceituais de divulgação que foram criadas na conversa.
+Não são screenshots comprovados de gameplay. Não há formulário de email, backend,
+trailer ou link de compra inventados. Botões de compartilhar e calendário funcionam.
+O site é do projeto independente PONTO CEGO; não é o site oficial de BODYCAM.
+
+PARA MUDAR A DATA
+- Texto do HTML: procure por 10.11.26 e 10 DE NOVEMBRO DE 2026.
+- Contagem regressiva: primeira declaração em script.js (releaseTime).
+- Calendário: campos DTSTART/DTEND em script.js.
+
+PARA TROCAR FOTOS
+Substitua os arquivos .webp dentro de assets/ pelos seus screenshots reais
+mantendo os nomes, ou altere os src e os caminhos no CSS.
+
+FIM
